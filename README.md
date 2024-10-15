@@ -48,7 +48,7 @@ print(factorial(5))  # Output: 120
 
 ---
 
-### **Task 4: Count the "a"s in a String**
+### **Task 3: Count the "a"s in a String**
 
 Write a function that takes a string and returns the number of occurrences of the letter "a" (case-insensitive).
 
@@ -68,7 +68,7 @@ print(count_as("Apples and Bananas"))  # Output: 5
 
 ---
 
-### **Task 5: Multiples of 3**
+### **Task 4: Multiples of 3**
 
 Write a function that takes in a number and returns a string of all the numbers from 3 to that number that are multiples of 3.
 
@@ -88,7 +88,7 @@ print(multiples_of_3(10))  # Output: "3 6 9 "
 
 ---
 
-### **Task 6: Number Pyramid**
+### **Task 5: Number Pyramid**
 
 Write a function that takes in a number and prints a pyramid. The top level should be 1, and each subsequent level should contain numbers from 1 to that level number.
 
@@ -114,7 +114,7 @@ number_pyramid(5)
 
 ---
 
-### **Task 7: Multiplication Table**
+### **Task 6: Multiplication Table**
 
 Write a function that takes a number `num` and prints a multiplication table from 1 to `num`. Each line should display the product of `num` and each number, formatted using an f-string.
 
@@ -138,7 +138,7 @@ multiplication_table(3)
 
 ---
 
-### **Task 8: Count Words with "cat"**
+### **Task 7: Count Words with "cat"**
 
 Write a function that takes in a list of words and returns a count of how many words contain the substring "cat" (case-insensitive).
 
