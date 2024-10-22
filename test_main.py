@@ -1,9 +1,9 @@
 from main import *
 
 def test_numbers_in_string():
-    assert numbers_in_string(5) == "0 1 2 3 4 5 "
-    assert numbers_in_string(3) == "0 1 2 3 "
-    assert numbers_in_string(6) == "0 1 2 3 4 5 6 "
+    assert numbers_in_string(5) == "1 2 3 4 5 "
+    assert numbers_in_string(3) == "1 2 3 "
+    assert numbers_in_string(6) == "1 2 3 4 5 6 "
 
 def test_factorial():
     assert factorial(5) == 120
@@ -18,7 +18,7 @@ def test_count_as():
 def test_multiples_of_3():
     assert multiples_of_3(10) == "3 6 9 "
     assert multiples_of_3(15) == "3 6 9 12 15 "
-    assert multiples_of_3(13) == "3 6 9 12 15 "
+    assert multiples_of_3(13) == "3 6 9 12 "
 
 
 
